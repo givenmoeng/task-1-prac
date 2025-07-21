@@ -1,0 +1,6 @@
+What is the purpose of a shell?
+To accepts user input and translate to kernel or cpu.
+What did you learn by running shell commands?
+Shell commands are similar to bash in syntax but run differently as they need to be executable file before you run them.
+How was using the terminal different from clicking through folders?
+Using the terminal is quicker than clicking through folders.

@@ -1,0 +1,176 @@
+
+9212305784086@RDS MINGW64 ~
+$ cd
+
+9212305784086@RDS MINGW64 ~
+$ ls
+ AppData/             Desktop/     Links/             NTUSER.DAT                                                                                     NetHood@     Recent@        'Start Menu'@   hello-world/      task-1-prac/
+'Application Data'@   Documents/  'Local Settings'@   NTUSER.DAT{f50dea4b-3714-11f0-9cd4-00155d041a00}.TM.blf                                        OneDrive/   'Saved Games'/   Templates@     ntuser.dat.LOG1
+ Contacts/            Downloads/   Music/             NTUSER.DAT{f50dea4b-3714-11f0-9cd4-00155d041a00}.TMContainer00000000000000000001.regtrans-ms   Pictures/    Searches/       Videos/        ntuser.dat.LOG2
+ Cookies@             Favorites/  'My Documents'@     NTUSER.DAT{f50dea4b-3714-11f0-9cd4-00155d041a00}.TMContainer00000000000000000002.regtrans-ms   PrintHood@   SendTo@         WINDOWS/       ntuser.ini
+
+9212305784086@RDS MINGW64 ~
+$ cd desktop
+
+9212305784086@RDS MINGW64 ~/desktop
+$ cd task-1-prac
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ mkdrk Documents
+bash: mkdrk: command not found
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ mkdir Documents
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ cd Documents
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac/Documents (main)
+$ cd..
+bash: cd..: command not found
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac/Documents (main)
+$ cd ..
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ ls
+Documents/  reflection.txt  shell_arch_pract.md  shell_arch_task.txt  shell_intro.sh
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ chmod +x shell_intro.sh
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ ./shell_intro.sh
+Welcome to the shell
+/c/Users/9212305784086/desktop/task-1-prac
+Documents  reflection.txt  shell_arch_pract.md  shell_arch_task.txt  shell_intro.sh
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ echo "What is the purpose of a shell?" > reflection.txt
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ echo "To accepts user input and translate to kernel or cpu." >> reflection.txt
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ echo "What did you learn by running shell commands?" >> reflection.txt
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ echo "Shell commands are similar to bash in syntax but run differently as they need to be executable file before you run them." >> reflection.txt
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ echo "How was using the terminal different from clicking through folders?" >> reflection.txt
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ echo "Using the terminal is quicker than clicking through folders." >> reflection.txt
+
+9212305784086@RDS MINGW64 ~/desktop/task-1-prac (main)
+$ history
+    1  node -v
+    2  npm -v
+    3  mkdir hello-world
+    4  cd hello-world
+    5  touch index.js
+    6  echo 'console.log("hello" + " world");' > index.js
+    7  git init
+    8  git add.
+    9  git add .
+   10  git commit -m "Created hello world in index"
+   11  git config --global --edit
+   12  git commit -m "Created hello world in index"
+   13  exit
+   14  ls
+   15  cd Desktop
+   16  ls
+   17  cd..
+   18  cd .
+   19  cd ..
+   20  clk
+   21  git push master
+   22  git remote add origin https://github.com/givenmoeng/hello-world.git~
+   23  git remote add origin https://github.com/givenmoeng/hello-world.git
+   24  cd hello-world
+   25  git push origin master
+   26  git remote add origin https://github.com/givenmoeng/hello-world.git
+   27  git push origin master
+   28  cd ..
+   29  ls
+   30  cd hello-world
+   31  cp index.js / Desktop/
+   32  cp index.js /Desktop/
+   33  cp index.js /hello-world
+   34  cp index.js /Desktop
+   35  cp index.js /Desktop/hello-world
+   36  cp -i index.js /Desktop/hello-world
+   37  cp -i index.js /hello-world
+   38  cd ..
+   39  ls
+   40  cd Desktop
+   41  cd hello-world
+   42  touch index.js
+   43  echo 'console.log("Hello" + "World");' > index.js
+   44  git init
+   45  git add .
+   46  git commit -m "created index file"
+   47  git remote add origin https://github.com/givenmoeng/hello-world.git
+   48  git push origin master
+   49  touch index.html
+   50  touch script.js
+   51  git add
+   52  git add .
+   53  ls
+   54  git commit -m "Added three files"
+   55  git remote add origin https://github.com/givenmoeng/hello-world.git
+   56  git push origin master
+   57  cd ~
+   58  git clone https://github.com/givenmoeng/task-1-prac.git~
+   59  git clone https://github.com/givenmoeng/task-1-prac.git
+   60  ls
+   61  cd task-1-prac
+   62  ls
+   63  code .
+   64  git pull origin main
+   65  touch shell_into.sh
+   66  touch reflection.txt
+   67  echo "The shell is my translator to the OS"
+   68  run the following commands:
+   69  pwd
+   70  ls
+   71  cd Documents
+   72  cd task-1-prac/Documents
+   73  cd ~
+   74  cd Desktop
+   75  git clone https://github.com/givenmoeng/task-1-prac.git
+   76  cd task-1-prac
+   77  ls
+   78  code .
+   79  touch shell_intro.sh
+   80  touch reflection.txt
+   81  echo "The shell is my translator to the OS"
+   82  pwd
+   83  ls
+   84  cd ..
+   85  cd ..
+   86  cd Documents
+   87  cd ..
+   88  cd Desktop
+   89  cd task-1-prac
+   90  nano shell_intro.sh
+   91  cd
+   92  ls
+   93  cd desktop
+   94  cd task-1-prac
+   95  mkdrk Documents
+   96  mkdir Documents
+   97  cd Documents
+   98  cd..
+   99  cd ..
+  100  ls
+  101  chmod +x shell_intro.sh
+  102  ./shell_intro.sh
+  103  echo "What is the purpose of a shell?" > reflection.txt
+  104  echo "To accepts user input and translate to kernel or cpu." >> reflection.txt
+  105  echo "What did you learn by running shell commands?" >> reflection.txt
+  106  echo "Shell commands are similar to bash in syntax but run differently as they need to be executable file before you run them." >> reflection.txt
+  107  echo "How was using the terminal different from clicking through folders?" >> reflection.txt
+  108  echo "Using the terminal is quicker than clicking through folders." >> reflection.txt
+  109  history
